@@ -3,7 +3,7 @@
 import qrcode
 
 # Define the link for the QR code
-link = "your-destination-link"
+link = input("Enter destination link: ")
 
 # Generate QR code
 qr_code = qrcode.make(link)
